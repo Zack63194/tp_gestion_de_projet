@@ -9,3 +9,7 @@ h
 i
 j 
 
+en cas de conflit insolvable : 
+je jette le projet (eventuellement je garde dans un coin le fichier avec les modifs)
+je refais un git clone
+je réapplique mes modifs
