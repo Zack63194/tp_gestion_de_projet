@@ -13,3 +13,8 @@ en cas de conflit insolvable :
 je jette le projet (eventuellement je garde dans un coin le fichier avec les modifs)
 je refais un git clone
 je réapplique mes modifs
+
+si y'a plein de modifs sur plusieurs fichers, et j'ai ajouté des fichiers. c'est la merde. 
+je créé un nouveau projet vide
+je copie tous mes fichiers et dossiers de l'ancien projet dans le nouveau
+git add*; git commit-m'1er import'; git push
