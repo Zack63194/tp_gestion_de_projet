@@ -13,5 +13,8 @@ git add * = ajouter toutes les dernières modifiations
 git commit -m "message précis de ce que t'as fait !!"
 git push = transfert sur le serveur en ligne pour que les autres y est accès 
 
-si j'ai un conflit isolvable et que j'ai fait de petites modifiations :
-je jette le depot local et je reclone le projet pour repartir sur une base propre 
+Si t'as un conflit isolvable et qu'il n'y a que de petites modifiations :
+Tu jettes le depot local et Tu reclones le projet pour repartir sur une base propre
+
+Tu as fait un conflit insolvable avec beaucoup de modifiations :
+Tu crée un nouveau projet vide et je copie tous les fichiers et dossier de l'ancien projet dans le nouveau
