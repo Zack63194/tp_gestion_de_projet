@@ -17,4 +17,5 @@ Si t'as un conflit isolvable et qu'il n'y a que de petites modifiations :
 Tu jettes le depot local et Tu reclones le projet pour repartir sur une base propre
 
 Tu as fait un conflit insolvable avec beaucoup de modifiations :
-Tu crée un nouveau projet vide et je copie tous les fichiers et dossier de l'ancien projet dans le nouveau
+Tu crée un nouveau projet vide et je copie tous les fichiers et dossier de l'ancien projet dans le nouveau. 
+Ensuite on fait git add *, git commit -m "commentaire", git push
