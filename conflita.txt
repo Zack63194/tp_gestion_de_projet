@@ -18,3 +18,5 @@ si y'a plein de modifs sur plusieurs fichers, et j'ai ajouté des fichiers. c'es
 je créé un nouveau projet vide
 je copie tous mes fichiers et dossiers de l'ancien projet dans le nouveau
 git add*; git commit-m'1er import'; git push
+
+si malgré tout il reste un probleme, on appelle le prof à l'aide
