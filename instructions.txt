@@ -8,14 +8,23 @@ git config --global user.name = "tonprénom"  //username
 Si tu travaille sur un dépôt déjà cloné :
 
 Tu vas dans le fichier où t'as ton projet = cd [nom du fichier]
-git  pull = mise à jour de tes fichiers sur l'ordinateur 
+git  pull = mise à jour de tes fichiers sur l'ordinateur => important sinon conflit : depot pas à jour
 git add * = ajouter toutes les dernières modifiations 
 git commit -m "message précis de ce que t'as fait !!"
 git push = transfert sur le serveur en ligne pour que les autres y est accès 
 
-Si t'as un conflit isolvable et qu'il n'y a que de petites modifiations :
-Tu jettes le depot local et Tu reclones le projet pour repartir sur une base propre
+Si t'es sur la même branche que ton collègue et que vous modifiez la même ligne dans le code :
+Le premier push = ok mais le deuxième push pose problème 
+=> dépôt pas mis à jour => conflit : git ne sais pas quelle version garder
+
+Pour régler le conflit :
+Tu fais un git pull puis tu choisis une des version
+Ensuite git add*, git  commit -m "", git push
+
+
+Si t'as un conflit isolvable et qu'il n'y a que des petites modifiations :
+Tu jettes le depot local et tu reclones le projet pour repartir sur une base propre
 
 Tu as fait un conflit insolvable avec beaucoup de modifiations :
 Tu crée un nouveau projet vide et je copie tous les fichiers et dossier de l'ancien projet dans le nouveau. 
-Ensuite on fait git add *, git commit -m "commentaire", git push
+Ensuite on fait git add *, git commit -m "commentaire", git push, git pull
